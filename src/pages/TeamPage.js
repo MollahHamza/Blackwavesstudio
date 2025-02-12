@@ -5,10 +5,10 @@ import React, { Component } from 'react';
 
 import Header from 'parts/Header';
 import HeroTeam from 'parts/HeroTeam';
-import AllTeam from 'parts/AllTeam';
 import Footer from 'parts/Footer';
-
-import { TeamMembers } from 'json/landingPageData';
+import Service from 'parts/Service';
+import Discuss from 'parts/Discuss'; // Import Discuss component
+import { Services } from 'json/landingPageData';
 
 export default class TeamPage extends Component {
   componentDidMount() {
@@ -20,7 +20,8 @@ export default class TeamPage extends Component {
       <>
         <Header />
         <HeroTeam />
-        <AllTeam data={TeamMembers} />
+        <Service data={Services} />
+        <Discuss /> {/* Add Discuss component here */}
         <Footer />
       </>
     );

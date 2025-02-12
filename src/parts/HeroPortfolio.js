@@ -17,7 +17,11 @@ export default function HeroPortfolio() {
         </Fade>
         <Fade direction="up" triggerOnce delay={400}>
           <p className="font-light text-xl text-gray-400 leading-relaxed">
-            As a Software House that designs and develops websites, mobile apps, and UI/UX design, we have been trusted by our clients from all around the world.
+            BlackWaveStudio specializes in designing responsive, visually compelling 
+            websites that reflect our clients&apos; brand and values. Our expertise in UX/UI design, 
+            SEO, and digital marketing ensures that each site is optimized for user engagement and
+            conversion. Focused on business growth, we collaborate closely with clients to deliver 
+            impactful, technology-driven solutions that achieve their goals effectively.
           </p>
         </Fade>
       </div>

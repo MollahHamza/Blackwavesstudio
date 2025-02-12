@@ -14,21 +14,23 @@ export default function Hero() {
     <section className="hero">
       <div className="w-full lg:w-1/2 xl:pl-12 sm:pr-2 mt-8">
         <h1 className="text-5xl sm:text-6xl text-theme-blue font-bold leading-tight mb-5">
-          Growing Your Business <br />
-          Is Our Calling
+        E-COMMERCE  <br />
+        DEVELOPMENT AGENCY
         </h1>
 
         <p className="font-light text-xl text-gray-400 leading-relaxed mb-16">
-          We provide developers & designers using latest technologies to help
-          you scale up your business.
+        BlackWavesStudio is a web development agency specializing
+         in creating effective business websites. Our team of web designers, 
+         UX/UI specialists, developers, SEOs, digital marketers, and managers is committed 
+         to delivering the marketing and technology solutions your company needs to succeed.
         </p>
         <Fade direction="up" delay={500} triggerOnce>
           <Button
-            href="/project"
+            href="/discuss-project"
             type="link"
             className="flex w-71 h-18 items-center px-14 py-5 text-white text-xl bg-theme-purple rounded-lg shadow-2xl hover:bg-dark-theme-purple transition duration-200"
           >
-            See Our Work
+            Contact Us
             <svg
               className="ml-2 w-7 h-7 text-white animate-bounce-x"
               xmlns="http://www.w3.org/2000/svg"

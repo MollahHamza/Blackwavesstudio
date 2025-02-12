@@ -1,17 +1,22 @@
 /* eslint-disable import/extensions */
 
 // Services Img Imports
-import Web from '../assets/images/Services/Web.png';
-import Mobile from '../assets/images/Services/Mobile.png';
-import UIUX from '../assets/images/Services/Design.png';
+import Web from '../assets/images/Services/webdev.jpeg';
+import Perfomance from '../assets/images/Services/performance.jpg';
+import Seo from '../assets/images/Services/Seo.jpg';
+import Ad from '../assets/images/Services/Ad.jpg';
+import UX from '../assets/images/Services/UX.jpg';
+import Payment from '../assets/images/Services/payment.jpg';
+import Expert from '../assets/images/Services/Expert.jpg';
+import Plug from '../assets/images/Services/Design.png';
 
 // Portfolio Img Imports
-import Recruiting from '../assets/images/Portfolio/Recruiting.png';
-import Stream from '../assets/images/Portfolio/Stream.png';
-import Freelance from '../assets/images/Portfolio/Freelance.png';
-import Aura from '../assets/images/Portfolio/Aura.png';
-import Surtido from '../assets/images/Portfolio/Surtido.png';
-import ManagementApp from '../assets/images/Portfolio/ManagementApp.png';
+import surma from '../assets/images/Portfolio/logox2.jpg';
+// import Stream from '../assets/images/Portfolio/Stream.png';
+// import Freelance from '../assets/images/Portfolio/Freelance.png';
+// import Aura from '../assets/images/Portfolio/Aura.png';
+// import Surtido from '../assets/images/Portfolio/Surtido.png';
+// import ManagementApp from '../assets/images/Portfolio/ManagementApp.png';
 
 // Advantages
 import Communicative from '../assets/images/Advantages/Communicative.png';
@@ -40,89 +45,70 @@ import UIUX2 from '../assets/images/TeamMembers/UIUX2.jpg';
 
 export const Services = [
   {
-    title: 'Web Development',
+    title: 'Fullstack Web Development',
     imageUrl: Web,
     animation: 'left',
+    description: 'We provide comprehensive full-stack web development services to build dynamic websites.',
   },
   {
-    title: 'Mobile Development',
-    imageUrl: Mobile,
+    title: 'Performance Marketing',
+    imageUrl: Perfomance,
     animation: 'up',
+    description: 'Our performance marketing strategies help you achieve measurable results.',
+  },
+  {
+    title: 'Digital Marketing and SEO',
+    imageUrl: Seo,
+    animation: 'right',
+    description: 'We optimize your online presence through effective digital marketing and SEO tactics.',
+  },
+  {
+    title: 'Ads (GMB & Google Paid Marketing)',
+    imageUrl: Ad,
+    animation: 'left',
+    description: 'Maximize your visibility with targeted ads and Google My Business promotions.',
+  },
+  {
+    title: 'Payment Gateway Integration',
+    imageUrl: Payment,
+    animation: 'up',
+    description: 'Seamlessly integrate payment gateways for smooth transactions.',
   },
   {
     title: 'UI/UX Design',
-    imageUrl: UIUX,
+    imageUrl: UX,
     animation: 'right',
+    description: 'We create user-friendly designs that enhance the user experience.',
+  },
+  {
+    title: 'Custom Plugins',
+    imageUrl: Plug,
+    animation: 'left',
+    description: 'Develop custom plugins tailored to your specific business needs.',
+  },
+  {
+    title: 'Expert Consultation',
+    imageUrl: Expert,
+    animation: 'up',
+    description: 'Get professional guidance to improve your business strategies.',
   },
 ];
 
 export const Portfolios = [
   {
     id: 'asd1293uasdads1',
-    title: 'Recruiting App',
-    imageUrl: Recruiting,
-    type: 'Mobile Apps',
-    responsibility: [
-      'Mobile Development',
-      'UI/UX Design',
-    ],
-    credit: 'https://dribbble.com/shots/15164950-Recruiting-app',
-  },
-  {
-    id: 'asd1293uhjkhkjh2',
-    title: 'Stream+',
-    imageUrl: Stream,
-    type: 'Mobile Apps',
-    responsibility: [
-      'Mobile Development',
-      'UI/UX Design',
-    ],
-    credit: 'https://dribbble.com/shots/15276430-Stream',
-  },
-  {
-    id: 'asd1293uvbvcbbd3',
-    title: 'Freelance',
-    imageUrl: Freelance,
-    type: 'Mobile Apps',
-    responsibility: [
-      'Mobile Development',
-      'UI/UX Design',
-    ],
-    credit: 'https://dribbble.com/shots/15223131-Freelance-Mobile-App-Concept',
-  },
-  {
-    id: 'asd1293ufgdfgs4',
-    title: 'Aura',
-    imageUrl: Aura,
+    title: 'Construction Company Website',
+    imageUrl: surma,
+    description: 'This website was developed for a construction company with a focus on intuitive user experience and responsive design. Prioritizing mobile compatibility, it ensures clients and potential customers can easily navigate services, view projects, and contact the company on any device. The layout is clean and professional, effectively showcasing the company’s expertise and offerings to enhance their brand image and user engagement.',
     type: 'Website',
     responsibility: [
-      'Web Development',
+      'Website development',
       'UI/UX Design',
     ],
-    credit: 'https://dribbble.com/shots/15176338-Aura-Website-Main-Page',
+    credit: 'https://surmaconstructionlimited.com/',
+    
   },
-  {
-    id: 'asd1293ulskmnb5',
-    title: 'Surtido Rico',
-    imageUrl: Surtido,
-    type: 'Website',
-    responsibility: [
-      'Web Development',
-      'UI/UX Design',
-    ],
-    credit: 'https://dribbble.com/shots/15173118-Surtido-Rico',
-  },
-  {
-    id: 'asd1293ulkmnbj6',
-    title: 'Courses Management',
-    imageUrl: ManagementApp,
-    type: 'Website',
-    responsibility: [
-      'Web Development',
-      'UI/UX Design',
-    ],
-    credit: 'https://dribbble.com/shots/15197890-Courses-Management-and-Promoting-Web-App',
-  },
+
 ];
 
 export const Advantages = [
@@ -177,6 +163,7 @@ export const TeamMembers = [
     position: 'CEO',
     imageUrl: CEO,
   },
+  
   {
     name: 'Pauline Sydney',
     position: 'HRD',

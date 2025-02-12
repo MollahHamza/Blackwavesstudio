@@ -39,10 +39,10 @@ export const DiscussForm = (actions) => {
       && projectIdea !== ''
     ) {
       emailjs.send(
-        'service_h4gtndg',
-        'template_a9tvs7a',
+        'service_jbahkkr',
+        'template_4u2m04w',
         templateParams,
-        'user_csqIxzN5mKsl1yw4ffJzV',
+        'utPVN--DQ-VjyMNqk6',
       )
         .then(() => {
           toast.success('Success! we\'\ll get back to you soon. Thank you!');

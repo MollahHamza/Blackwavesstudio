@@ -1,47 +1,58 @@
-# Racx Studio
-![alt text](https://github.com/racmathafidz/racxstudio/blob/master/src/assets/images/screely.png)
+Blackwaves Studio
 
-### About
-A software house profile website built with ReactJS and TailwindCSS :computer:
 
-### Tech Stack
-- [**ReactJS**](https://github.com/facebook/create-react-app)
-- [**PostCSS**](https://postcss.org/)
-- [**TailwindCSS**](https://tailwindcss.com/)
-- [**Vercel**](https://vercel.com/)
 
-### Library
-- [**emailJS**](https://www.emailjs.com/) : Send email from javascript
-- [**headlessUI**](https://github.com/tailwindlabs/headlessui) : Transition Style
-- [**React Splide**](https://splidejs.com/integration-react-splide/) : Carousel / Slider
-- [**React Reveal**](https://www.react-reveal.com/) : Animation 
-- [**React Tabs**](https://www.npmjs.com/package/react-tabs) : Tab component
-- [**React Toastify**](https://www.npmjs.com/package/react-toastify) : Toast notification 
-- [**ESLint**](https://eslint.org/) : Linting and formatting
+About
 
-### Demo
-**Demo :** [racxstudio.vercel.app](https://racxstudio.vercel.app/)
+Blackwaves Studio is a digital marketing and web development company specializing in creating high-quality web solutions for businesses. Our official website is built with ReactJS and TailwindCSS to showcase our services and expertise. :computer:
 
-### Available Scripts
+Tech Stack
+
+ReactJS
+
+PostCSS
+
+TailwindCSS
+
+
+
+Library
+
+emailJS : Send emails from JavaScript
+
+headlessUI : Transition style
+
+React Splide : Carousel / Slider
+
+React Reveal : Animation
+
+React Tabs : Tab component
+
+React Toastify : Toast notification
+
+ESLint : Linting and formatting
+
+Demo
+
+Demo : blackwavesstudio.com 
+
+Available Scripts
+
 In the project directory, you can run:
 
-#### `npm start`
+npm start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Runs the app in the development mode.Open http://localhost:3000 to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The page will reload if you make edits.You will also see any lint errors in the console.
 
-#### `npm test`
+npm test
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode.See the section about running tests for more information.
 
-#### `npm run build`
+npm run build
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the app for production to the build folder.It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The build is minified and the filenames include the hashes.Your app is ready to be deployed!
+
