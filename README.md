@@ -6,7 +6,7 @@ About
 
 Blackwaves Studio is a digital marketing and web development company specializing in creating high-quality web solutions for businesses. Our official website is built with ReactJS and TailwindCSS to showcase our services and expertise. :computer:
 
-Tech Stack
+Tech Stack:
 
 ReactJS
 
@@ -16,7 +16,8 @@ TailwindCSS
 
 
 
-Library
+
+Library:
 
 emailJS : Send emails from JavaScript
 
